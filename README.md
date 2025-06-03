@@ -1,6 +1,6 @@
 API-сервер на Django + DRF для взаимодействия с токеном `TBY` (Storage Gastoken V3) в сети **Polygon**  
 Контракт токена: `0x1a9b54a3075119f1546c52ca0940551a6ce5d2d0`
-
+(Переменная окружения .env осталась специально)
 ---
 
 ## Запуск
@@ -24,11 +24,11 @@ python manage.py runserver
 - Получить баланс токена у одного адреса.
 
 Пример:
-GET /api/get_balance/?address=0x51f1774249Fc2B0C2603542Ac6184Ae1d048351d
+GET /api/get_balance/?address=0x1a9b54a3075119f1546c52ca0940551a6ce5d2d0
 
 Ответ:
 {
-  "balance": 0.01
+  "balance": 3.2680318192644577
 }
 
 ---
