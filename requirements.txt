@@ -1,0 +1,4 @@
+Django>=3.2
+web3
+requests
+djangorestframework
